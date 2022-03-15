@@ -1,0 +1,75 @@
+/* [Master Stylesheet v1.0] */
+/* :: 1.0 Import Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,500,600,700");
+/* :: 2.0 Import All CSS */
+@import url(bootstrap.min.css);
+@import url(bootstrap.css);
+/* :: 3.0 Base CSS */
+body {
+	color:#777;
+	background: #f7f7f7;
+	line-height: 1.6em;
+}
+
+
+  h5 { font-size: 16px; }
+  body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, sans-serif, Arial;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:#222;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-style: normal;
+	margin: 0 0 20px 0;
+}
+
+/* ==============
+       Review
+   ==============*/
+   .content,.container {
+	overflow: hidden;
+}
+      #review {
+        padding-top: 20px;
+        padding-bottom:40px;
+        position:relative;
+        margin-top:50px;
+        background-image: url(img/bg-img/review_pic.jpg);
+      }
+      .align-center {
+        text-align: center;
+      }
+      .row {
+        z-index: 9999;
+      }
+      
+      .review i {
+        color: #fff;
+      }
+      .review span.author {
+        color: #fff;
+      }
+      .mar-bot20 {
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+      
+      .review h5 {
+        color: #fff;
+        font-size: 18px;
+        font-family: Georgia, sans-serif;
+        line-height: 1.5em;
+      }
+      .flexslider {
+        margin: 0;
+        background: 0;
+        border: 0;
+        box-shadow: none;
+        -webkit-box-shadow: none;
+      }
+      .flexslider .slides img {
+        width:auto;
+        display:inline;
+      }

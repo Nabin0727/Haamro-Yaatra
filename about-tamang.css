@@ -1,0 +1,42 @@
+/*This about tamang css
+*/
+/* ---------------------------
+         About Us Section
+--------------------------------*/
+
+#about {
+    background: #fff;
+    padding: 60px 0;
+  }
+  #about .about-container .background {
+    margin: 20px 0;
+  }
+
+  
+  #about .about-container .content {
+    background: #fff;
+  }
+  
+  #about .about-container .title {
+    color: #333;
+    font-weight: 700;
+    font-size: 32px;
+  }
+  
+  #about .about-container p {
+    line-height: 26px;
+  }
+  
+  #about .about-container p:last-child {
+    margin-bottom: 0;
+  }
+
+  #about .about-extra {
+    padding-top: 80px;
+  }
+  
+  #about .about-extra h4 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  
